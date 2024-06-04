@@ -1,0 +1,59 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+}
+.configBox {
+  display: flex;
+  background: #000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: end;
+  justify-content: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* margin-bottom: 50px; */
+  gap: 20px;
+  color: white;
+}
+.painting {
+  width: 100%;
+  height: 90.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  box-shadow:  0 0 20px 1px gray;
+  border-radius: 11px;
+}
+#painting {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+}
+#clear, #pencil, #switch {
+  background: #000;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 160px;
+  height: 30px;
+  cursor: pointer;
+}
+#strokeWidth {
+  height: 30px;
+  background: #000;
+  border: 1px solid aqua;
+  color: aqua;
+  border-radius: 5px;
+  padding: 2px 5px;
+  cursor: pointer;
+}
+
+
