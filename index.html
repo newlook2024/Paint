@@ -11,10 +11,17 @@
       <label for="color">Rang</label>
       <input type="color" name="color" id="color" />
       <label for="strokeWidth">Chiziq qalinligi</label>
-      <input type="number" name="strokeWidth" value="5" max="20" min="0" id="strokeWidth" />
+      <input
+        type="number"
+        name="strokeWidth"
+        value="5"
+        max="20"
+        min="0"
+        id="strokeWidth"
+      />
       <button id="clear">Hammasini o'chirish</button>
-      <button id="switch">🗑</button>
-      <button id="pencil">✏</button>
+      <img id="switch" src="./erase.svg" alt="eraser" />
+      <img id="pencil" src="./pencil.svg" alt="pencil" />
     </div>
     <div class="painting">
       <canvas id="painting"></canvas>

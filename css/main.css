@@ -11,7 +11,7 @@ html {
 }
 .configBox {
   display: flex;
-  background: #000;
+  background: #bfbfbf;
   padding-top: 15px;
   padding-bottom: 15px;
   align-items: end;
@@ -20,7 +20,10 @@ html {
   padding-right: 20px;
   /* margin-bottom: 50px; */
   gap: 20px;
-  color: white;
+  color: rgb(31, 31, 31);
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 20px;
 }
 .painting {
   width: 100%;
@@ -38,7 +41,7 @@ html {
   border-radius: 10px;
 }
 #clear, #pencil, #switch {
-  background: #000;
+  background: gray;
   color: white;
   border: 1px solid white;
   border-radius: 5px;
